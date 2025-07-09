@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir":"dist",
+    "rootDir": "src",
+    "module": "ESNext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": ["src/*.ts"],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "dist"
+  ],
+}
